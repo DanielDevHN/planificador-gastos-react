@@ -40,7 +40,7 @@ const ControlPresupuesto = ({
   };
 
   const handleResetApp = () => {
-    const resultado = confirm("¿Deseas reiniciar el presupuesto y gastos?")
+    const resultado = confirm("¿Deseas reiniciar el presupuesto?")
 
     if(resultado) {
         setGastos([])
